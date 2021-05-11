@@ -8,8 +8,10 @@ module.exports = {
         nombreCompleto: "Luis Daniel",
         apellidoPaterno: "Choque",
         apellidoMaterno: "Garcia",
-        codigoInscripcion: "cbbo12542185",
-        intentos: 3,
+        categoriaExamen: "A",
+        tipoExamen: "T/P",
+        fechaUltimoExamen: '2021-04-23',
+        edad: 30,
         
       },
       {
@@ -17,8 +19,10 @@ module.exports = {
         nombreCompleto: "Juan Luis",
         apellidoPaterno: "Mendoza",
         apellidoMaterno: "Ramirez",
-        codigoInscripcion: "cbbo68432135",
-        intentos: 0,
+        categoriaExamen: "M",
+        tipoExamen: "P",
+        fechaUltimoExamen: '2021-04-23',
+        edad: 22,
         
       },
       {
@@ -26,8 +30,10 @@ module.exports = {
         nombreCompleto: "Daniela",
         apellidoPaterno: "Rodriguez",
         apellidoMaterno: "Galarza",
-        codigoInscripcion: "cbbo6561321",
-        intentos: 5,
+        categoriaExamen: "C",
+        tipoExamen: "P",
+        fechaUltimoExamen: '2021-04-23',
+        edad: 33,
         
       },
       {
@@ -35,8 +41,10 @@ module.exports = {
         nombreCompleto: "Juana Maria",
         apellidoPaterno: "Sanchez",
         apellidoMaterno: "Castillo",
-        codigoInscripcion: "cbbo651646516",
-        intentos: 3,
+        categoriaExamen: "A",
+        tipoExamen: "T/P",
+        fechaUltimoExamen: '2021-04-23',
+        edad: 40,
         
       },
     ]);

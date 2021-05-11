@@ -8,8 +8,10 @@ module.exports = (sequelize, DataTypes) => {
     nombreCompleto: DataTypes.STRING,
     apellidoPaterno: DataTypes.STRING,
     apellidoMaterno: DataTypes.STRING,
-    codigoInscripcion: DataTypes.STRING,
-    intentos: DataTypes.INTEGER,
+    categoriaExamen: DataTypes.STRING,
+    tipoExamen: DataTypes.STRING,
+    fechaUltimoExamen: DataTypes.DATE,
+    edad: DataTypes.INTEGER,
     
   });
   return Inscrito;

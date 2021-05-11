@@ -1,13 +1,17 @@
 module.exports = (sequelize, DataTypes) => {
-  const Supervisor = sequelize.define("Supervisor", {
+  const Evaluador = sequelize.define("Evaluador", {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
     },
+    ci: DataTypes.STRING,
     nombreCompleto: DataTypes.STRING,
     apellidoPaterno: DataTypes.STRING,
     apellidoMaterno: DataTypes.STRING,
-    ci: DataTypes.STRING,
+    gradoPolicial: DataTypes.STRING,
+    fechaAlta: DataTypes.DATE,
+    fechaBaja: DataTypes.DATE,
+
   });
-  return Supervisor;
+  return Evaluador;
 };

@@ -2,7 +2,7 @@
 const express = require("express");
 const SignedUpStudentsService = require("../app/services/signedUpStudentService");
 const router = express.Router();
-const signedUpStudentService = require("../app/services/signedUpStudentService");
+
 
 router.get("", async (request, response) => {
   const allSignedUpStudents = await SignedUpStudentsService.getAllSignedUpStudents(

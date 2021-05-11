@@ -3,7 +3,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const inscritos = require("./routes/inscritos");
-const supervisores = require("./routes/supervisores");
+const evaluadores = require("./routes/evaluadores");
+const evaluaciones = require("./routes/evaluaciones");
 const examenes = require("./routes/examenes");
 const ROUTE_URL = "/api";
 
@@ -19,7 +20,8 @@ class Application {
 
   setUpRoutes() {
     this.express.use(ROUTE_URL + "/inscritos", inscritos);
-    this.express.use(ROUTE_URL + "/supervisores", supervisores);
+    this.express.use(ROUTE_URL + "/evaluadores", evaluadores);
+    this.express.use(ROUTE_URL + "/evaluaciones", evaluaciones);
     this.express.use(ROUTE_URL + "/examenes", examenes);
   }
 

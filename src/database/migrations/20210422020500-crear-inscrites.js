@@ -26,11 +26,19 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      codigoInscripcion: {
+      categoriaExamen: {
         type: Sequelize.STRING,
         allowNull: true,
       },
-      intentos: {
+      tipoExamen: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
+      fechaUltimoExamen: {
+        type: Sequelize.DATE,
+        allowNull: true,
+      },
+      edad: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
